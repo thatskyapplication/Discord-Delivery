@@ -1,5 +1,5 @@
 node_modules/
 Channels/
 source/storedIds.json
-sourceJS/
+dist/
 package-lock.json

@@ -19,13 +19,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Compile codebase
-        run: tsc
+      - name: Build codebase
+        run: npm run-script build
 
       - name: Start delivery
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-        run: node sourceJS/execute.js
+        run: npm run-script start
 
       - name: Update message ids
         run: |
