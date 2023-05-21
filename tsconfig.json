@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"exactOptionalPropertyTypes": false,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"module": "ESNext",
+		"moduleResolution": "NodeNext",
+		"resolveJsonModule": true,
+		"verbatimModuleSyntax": true,
+		"newLine": "lf",
+		"outDir": "sourceJS",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"skipLibCheck": true
+	}
+}
