@@ -17,7 +17,10 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: |
+            - args: [--frozen-lockfile]
 
       - name: Build codebase
         run: pnpm run build
