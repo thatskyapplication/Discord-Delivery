@@ -1,7 +1,6 @@
 # Rules
 
 On top of abiding by thatgamecompany's EULA & ToS (which can be found here: https://thatskyapplication.com/sky-EULA-ToS), you must:
-
 1. Keep communication in English.
 2. Be cvil, kind, and respectful.
 3. No NSFW content.
