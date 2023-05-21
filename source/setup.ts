@@ -14,12 +14,16 @@ import { channels } from "./constants.js";
 import storedIds from "./storedIds.json" assert { type: "json" };
 import { parseEmoji, parseRawButtonStyle } from "./utility.js";
 
+export interface InformationChannelFile extends Omit<RawFile, "data"> {
+	url: string;
+}
+
 export class InformationChannelData {
 	public readonly channelName: keyof typeof storedIds;
 
 	public readonly channelId: Snowflake;
 
-	public readonly parsedMessages: (RESTPostAPIChannelMessageJSONBody & { files: (RawFile | string)[] })[] = [];
+	public readonly parsedMessages: (RESTPostAPIChannelMessageJSONBody & { files: InformationChannelFile[] })[] = [];
 
 	public storedIds: Snowflake[];
 
@@ -45,7 +49,7 @@ export class InformationChannelData {
 
 		for (let message of parsedContents) {
 			const components: RESTPostAPIChannelMessageJSONBody["components"] = [];
-			const files: string[] = [];
+			const files: InformationChannelFile[] = [];
 
 			message = message
 				.replaceAll(/ {2}$/gm, "")
@@ -63,8 +67,8 @@ export class InformationChannelData {
 				// 	type === "role" ? `<@&${roles[role]}>` : roles[role],
 				// )
 				// .replaceAll(/\[user\|(\w+)]/g, (_, user: keyof typeof users) => `<@${users[user]}>`)
-				.replaceAll(/!\[.+]\((.+)\)/g, (_, url: string) => {
-					files.push(url);
+				.replaceAll(/!\[(.+)]\((.+)\)/g, (_, name: string, url: string) => {
+					files.push({ url, name: `${name}${url.slice(url.lastIndexOf("."))}` });
 					return "";
 				})
 				.replaceAll(

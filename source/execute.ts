@@ -3,13 +3,11 @@ import { writeFileSync } from "node:fs";
 import process from "node:process";
 import { URL } from "node:url";
 import { API } from "@discordjs/core";
-import type { RawFile } from "@discordjs/rest";
 import { REST } from "@discordjs/rest";
 import type { APIMessage, RESTPostAPIChannelMessageJSONBody, Snowflake } from "discord-api-types/v10";
 import { MessageFlags } from "discord-api-types/v10";
 import { fetch } from "undici";
-import type { InformationChannelData } from "./setup.js";
-import informationChannels from "./setup.js";
+import informationChannels, { type InformationChannelData, type InformationChannelFile } from "./setup.js";
 import { isBulkDeletable } from "./utility.js";
 
 const token = process.env.DISCORD_TOKEN;
@@ -18,16 +16,13 @@ const { channels } = new API(new REST().setToken(token));
 
 async function createMessage(
 	channelId: Snowflake,
-	options: RESTPostAPIChannelMessageJSONBody & { files: (RawFile | string)[] },
+	options: RESTPostAPIChannelMessageJSONBody & { files: InformationChannelFile[] },
 ) {
 	const { components, content, files } = options;
 	const filesToSend = [];
 
 	for (const file of files) {
-		filesToSend.push({
-			name: typeof file === "string" ? "image.png" : file.name,
-			data: typeof file === "string" ? Buffer.from(await (await fetch(file)).arrayBuffer()) : file.data,
-		});
+		filesToSend.push({ name: file.name, data: Buffer.from(await (await fetch(file.url)).arrayBuffer()) });
 	}
 
 	return channels.createMessage(channelId, {
