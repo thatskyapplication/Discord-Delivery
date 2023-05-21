@@ -4,6 +4,7 @@ export const channels = {
 	announcements: "1092932721812193330",
 	"daily-guides": "1071076627037044766",
 	serebii: "1094972927574814861",
+	feedback: "1080528991028523059",
 } as const;
 
 export const commands = {} as const;
