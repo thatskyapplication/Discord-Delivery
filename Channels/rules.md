@@ -8,7 +8,6 @@ On top of abiding by thatgamecompany's EULA & ToS (which can be found here: http
 5. No trades regarding IAPs, hearts, etc.
 
 This list is not exhaustive.
-
-# Support
+## Support
 
 Should there be a case where someone is not abiding by these rules, create a private thread and mention [user|Jiralite] or send [user|Jiralite] a direct message.
