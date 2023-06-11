@@ -6,7 +6,7 @@ Welcome to the [user|Caelus] support server!
 This is the place to be for anything Caelus. Check out these channels to see what you can do:
 - Keep updated by reading [channel|announcements]!
 - Need some help with [user|Caelus]? Head on over to [channel|support]!
-- Did something go wrong? Maybe you saw an error? Perhaps even [user|Caelus] raided your local fridge? You can let us know over in [channel|issues]!
+- Did something go wrong? Maybe you saw an error? Perhaps even [user|Caelus] raided your fridge? You can let us know over in [channel|issues]!
 - Share any feedback you have in [channel|feedback]! We'd love to hear!
 - Daily guides are sent in [channel|daily-guides]!
 
