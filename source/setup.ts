@@ -10,7 +10,7 @@ import {
 	ButtonStyle,
 	ComponentType,
 } from "discord-api-types/v10";
-import { channels, users } from "./constants.js";
+import { channels, roles, users } from "./constants.js";
 import storedIds from "./storedIds.json" assert { type: "json" };
 import { parseEmoji, parseRawButtonStyle } from "./utility.js";
 
@@ -63,9 +63,9 @@ export class InformationChannelData {
 				// 	(_, animated: "a:" | undefined, emoji: keyof typeof emojis) =>
 				// 		`<${animated ? `${animated}${emoji}` : `:${emoji}`}:${emojis[emoji]}>`,
 				// )
-				// .replaceAll(/\[(role|roleid)\|([\w ()-]+)]/g, (_, type: "role" | "roleid", role: keyof typeof roles) =>
-				// 	type === "role" ? `<@&${roles[role]}>` : roles[role],
-				// )
+				.replaceAll(/\[(role|roleid)\|([\w ()-]+)]/g, (_, type: "role" | "roleid", role: keyof typeof roles) =>
+					type === "role" ? `<@&${roles[role]}>` : roles[role],
+				)
 				.replaceAll(/\[user\|(\w+)]/g, (_, user: keyof typeof users) => `<@${users[user]}>`)
 				.replaceAll(/!\[(.+)]\((.+)\)/g, (_, name: string, url: string) => {
 					files.push({ url, name: `${name}${url.slice(url.lastIndexOf("."))}` });
