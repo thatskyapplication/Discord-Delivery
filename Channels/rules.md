@@ -10,4 +10,4 @@ On top of abiding by thatgamecompany's EULA & ToS (which can be found here: http
 This list is not exhaustive.
 ## Support
 
-Should there be a case where someone is not abiding by these rules, create a private thread and mention [role|moderator] or send any [role|moderator] a direct message.
+Should there be a case where someone is not abiding by these rules, create a private thread and mention the [role|Developer] role or send any [role|Developer] a direct message.

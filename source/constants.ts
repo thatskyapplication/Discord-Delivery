@@ -10,5 +10,5 @@ export const channels = {
 
 export const commands = {} as const;
 export const emojis = {} as const;
-export const roles = { moderator: "1111364571505119263" } as const;
+export const roles = { Developer: "1261199790759481438" } as const;
 export const users = { Caelus: "982740693070012506" } as const;
