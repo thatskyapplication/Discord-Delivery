@@ -1,6 +1,6 @@
 # Rules
 
-On top of abiding by thatgamecompany's EULA & ToS (which can be found here: https://thatskyapplication.com/sky-EULA-ToS), you must:
+On top of abiding by thatgamecompany's EULA & ToS (which can be found [here](https://thatgamecompany.helpshift.com/hc/en/17/faq/460), you must:
 1. Keep communication in English.
 2. Be civil, kind, and respectful.
 3. Not send any NSFW content.
