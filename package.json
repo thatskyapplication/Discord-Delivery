@@ -5,7 +5,8 @@
 		"build": "tsup",
 		"format": "prettier --write . && eslint --fix .",
 		"lint": "prettier --check . && eslint .",
-		"start": "node --enable-source-maps dist/execute.js"
+		"start": "node --enable-source-maps dist/execute.js",
+		"update": "pnpm update --interactive --latest"
 	},
 	"dependencies": {
 		"@discordjs/core": "^0.6.0",
