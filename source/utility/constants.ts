@@ -1,0 +1,2 @@
+export const WELCOME_CHANNEL_ID = "1092887491092152434" as const;
+export const RULES_CHANNEL_ID = "1071077817565057164" as const;

@@ -1,4 +1,5 @@
 .DS_Store
+.env
+distribution/
 node_modules/
-dist/
-*.js
+test.ts

@@ -1,20 +1,23 @@
----
 name: Start delivery
 on:
-  push:
-    branches: main
-    paths: Channels/*
   workflow_dispatch:
+    inputs:
+      force:
+        description: Force regeneration
+        type: boolean
+permissions:
+  contents: write
 jobs:
-  build:
+  delivery:
+    name: Delivery
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Node.js 20
+      - name: Install Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install dependencies
         uses: pnpm/action-setup@v4
@@ -22,12 +25,13 @@ jobs:
           run_install: |
             - args: [--frozen-lockfile]
 
-      - name: Build codebase
+      - name: Build dependencies
         run: pnpm run build
 
       - name: Start delivery
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          FORCE: ${{ inputs.force }}
         run: pnpm run start
 
       - name: Update message ids
@@ -35,6 +39,11 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git pull
-          git add ./source/storedIds.json
-          git commit -m "chore: Update message ids" || true
-          git push
+          git add ./source/message-ids.json
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: Update message ids"
+            git push
+          else
+            echo "No changes to commit."
+          fi
