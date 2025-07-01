@@ -15,7 +15,7 @@ Welcome to the <@982740693070012506> support server! This is the place for anyth
 On top of all of that, check out <id:customize> to customise your experience!
 ## Crowdin
 
-Crowdin is a platform that allows you to help translate Caelus into your language! The project is over at https://crowdin.com/project/caelus. The list of supported languages may be viewed there too.
+Crowdin is a platform that allows you to help translate Caelus into your language! The project is over at https://thatskyapplication.crowdin.com. The list of supported languages may be viewed there too.
 
 If you have any queries regarding this, it can be discussed in <#1092894736857174026>. We have <#1382117279399153715> for activity on the platform too!
 ## Links
