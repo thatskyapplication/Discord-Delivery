@@ -13,16 +13,14 @@
 		"knip": "knip"
 	},
 	"dependencies": {
-		"@discordjs/core": "^2.1.1",
-		"@discordjs/rest": "^2.5.1",
-		"undici": "^7.10.0"
+		"discord-delivery": "^1.0.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.0.5",
+		"@biomejs/biome": "2.1.3",
 		"@types/node": "^22.15.33",
 		"knip": "^5.55.1",
 		"tsx": "^4.20.3",
-		"typescript": "^5.8.3"
+		"typescript": "^5.9.2"
 	},
-	"packageManager": "pnpm@10.12.1"
+	"packageManager": "pnpm@10.14.0"
 }

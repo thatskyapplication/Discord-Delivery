@@ -41,7 +41,7 @@ jobs:
           app-id: ${{ vars.APPLICATION_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: thatskyapplication
-          repositories: markdown-delivery
+          repositories: Discord-Delivery
           permission-contents: write
 
       - name: Update message ids

@@ -1,4 +1,4 @@
-import { InformationChannel } from "../models/information-channel.js";
+import { InformationChannel } from "discord-delivery";
 import { WELCOME_CHANNEL_ID } from "../utility/constants.js";
 
 const CONTENT_1 = `# Caelus
@@ -24,4 +24,7 @@ Here are some useful links:
 🔗 **Invite**: https://discord.com/oauth2/authorize?client_id=982740693070012506
 🔗 **Support**: https://thatskyapplication.com/support` as const;
 
-export default new InformationChannel(WELCOME_CHANNEL_ID, [{ content: CONTENT_1 }]);
+export default new InformationChannel({
+	id: WELCOME_CHANNEL_ID,
+	messages: [{ content: CONTENT_1 }],
+});

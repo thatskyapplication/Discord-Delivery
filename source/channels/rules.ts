@@ -1,4 +1,4 @@
-import { InformationChannel } from "../models/information-channel.js";
+import { InformationChannel } from "discord-delivery";
 import { RULES_CHANNEL_ID } from "../utility/constants.js";
 
 const CONTENT_1 = `# Rules
@@ -15,4 +15,4 @@ This list is not exhaustive.
 
 Should there be a case where someone is not abiding by these rules, create a private thread and mention the <@&1261199790759481438> role.` as const;
 
-export default new InformationChannel(RULES_CHANNEL_ID, [{ content: CONTENT_1 }]);
+export default new InformationChannel({ id: RULES_CHANNEL_ID, messages: [{ content: CONTENT_1 }] });
