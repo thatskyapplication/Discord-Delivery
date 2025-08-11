@@ -13,7 +13,7 @@
 		"knip": "knip"
 	},
 	"dependencies": {
-		"discord-delivery": "^1.0.1"
+		"discord-delivery": "^1.0.2"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.1.3",
