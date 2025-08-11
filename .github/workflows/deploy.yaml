@@ -12,7 +12,19 @@ jobs:
     name: Delivery
     runs-on: ubuntu-latest
     steps:
+      - name: Create token
+        id: create-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.APPLICATION_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: thatskyapplication
+          repositories: Discord-Delivery
+          permission-contents: write
+
       - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.create-token.outputs.token }}
 
       - name: Install Node.js 22
         uses: actions/setup-node@v4
@@ -33,16 +45,6 @@ jobs:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           FORCE: ${{ inputs.force }}
         run: pnpm run start
-
-      - name: Create token
-        id: create-token
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ vars.APPLICATION_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          owner: thatskyapplication
-          repositories: Discord-Delivery
-          permission-contents: write
 
       - name: Update message ids
         run: |
