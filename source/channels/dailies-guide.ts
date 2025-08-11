@@ -5,14 +5,14 @@ const CONTENT_1 = `# Dailies Guide
 
 Thank you for expressing interest for updating the daily guides! This will tell you how to do just that.
 ## Quests
-Simply log into Sky to check the dailies and then update them with <@982740693070012506> via \`/daily-guides set-quest\`. Checking daily quests in Aviary Village is slower than the traditional Home, but that's up to you.
+Simply log into Sky to check the dailies and then update them with <@982740693070012506> via \`/daily-guides set\`. Checking daily quests in Aviary Village is slower than the traditional Home, but that's up to you.
 
 Once you use the command, <https://thatskyapplication.com/daily-guides> will _immediately_ update, so be sure you're doing it correctly! However, daily guides on Discord will _not_ immediately update. Use the "Distribute" button if everything seems good. You'll know if it'll work because you'll see it updated in <#1071076627037044766>.
 
 Miscellaneous utilities include reordering daily quests in case you mix them up and viewing daily guides in a locale just to be sure localisation works (you will probably never need to use that).
 ## Travelling rock
 
-You may notice \`/daily-guides set-travelling-rock\`. The rock that appears around Aviary Village is also part of the daily guides, but this has pretty much never been done as it is viewed as unavailing. If you want, feel free to upload an image of where it is!
+You may notice the travelling rock! The rock that appears around Aviary Village is also part of the daily guides, but this has pretty much never been done as it is viewed as unavailing. If you want, feel free to upload an image of where it is!
 ## Everything else
 Everything else is automated, but there are some quirks.
 
