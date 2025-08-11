@@ -10,6 +10,9 @@ Simply log into Sky to check the dailies and then update them with <@98274069307
 Once you use the command, <https://thatskyapplication.com/daily-guides> will _immediately_ update, so be sure you're doing it correctly! However, daily guides on Discord will _not_ immediately update. Use the "Distribute" button if everything seems good. You'll know if it'll work because you'll see it updated in <#1071076627037044766>.
 
 Miscellaneous utilities include reordering daily quests in case you mix them up and viewing daily guides in a locale just to be sure localisation works (you will probably never need to use that).
+## Travelling rock
+
+You may notice \`/daily-guides set-travelling-rock\`. The rock that appears around Aviary Village is also part of the daily guides, but this has pretty much never been done as it is viewed as unavailing. If you want, feel free to upload an image of where it is!
 ## Everything else
 Everything else is automated, but there are some quirks.
 
