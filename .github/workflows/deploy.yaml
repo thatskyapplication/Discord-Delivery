@@ -22,7 +22,7 @@ jobs:
           repositories: Discord-Delivery
           permission-contents: write
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ steps.create-token.outputs.token }}
 
