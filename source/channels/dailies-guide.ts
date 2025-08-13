@@ -1,7 +1,7 @@
 import { InformationChannel } from "discord-delivery";
 import { DAILIES_GUIDE_CHANNEL_ID } from "../utility/constants.js";
 
-const CONTENT_1 = `# Dailies Guide
+const CONTENT_1 = `# Dailies guide
 
 Thank you for expressing interest for updating the daily guides! This will tell you how to do just that.
 ## Quests
