@@ -1,5 +1,5 @@
 import { InformationChannel } from "discord-delivery";
-import { HOW_TO_TRANSLATE_CHANNEL_ID } from "../utility/constants.js";
+import { HOW_TO_TRANSLATE_CHANNEL_ID } from "../utility/configuration.js";
 
 const CONTENT_1 = `# How to translate
 

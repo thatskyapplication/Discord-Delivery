@@ -1,5 +1,5 @@
 import { InformationChannel } from "discord-delivery";
-import { RULES_CHANNEL_ID } from "../utility/constants.js";
+import { RULES_CHANNEL_ID } from "../utility/configuration.js";
 
 const CONTENT_1 = `# Rules
 

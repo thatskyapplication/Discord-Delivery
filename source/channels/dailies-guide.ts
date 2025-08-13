@@ -1,5 +1,5 @@
 import { InformationChannel } from "discord-delivery";
-import { DAILIES_GUIDE_CHANNEL_ID } from "../utility/constants.js";
+import { DAILIES_GUIDE_CHANNEL_ID } from "../utility/configuration.js";
 
 const CONTENT_1 = `# Dailies guide
 
