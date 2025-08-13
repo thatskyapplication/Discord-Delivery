@@ -5,6 +5,7 @@ const CONTENT_1 = `# Rules
 
 On top of abiding by [thatgamecompany's EULA & ToS](https://thatgamecompany.helpshift.com/hc/en/17/faq/460), you must:
 1. Keep communication in English.
+  - In <#1389597535164698789>, you may use other languages for aid with translations.
 2. Be civil, kind, and respectful.
 3. Not send any NSFW content.
 4. Not perform any self-promotion.
