@@ -12,11 +12,9 @@ Welcome to the <@982740693070012506> support server! This is the place for anyth
 - Daily guides are sent in <#1071076627037044766>!
 
 On top of all of that, check out <id:customize> to customise your experience!
-## Crowdin
+## Helping out
 
-Crowdin is a platform that allows you to help translate Caelus into your language! The project is over at https://thatskyapplication.crowdin.com. The list of supported languages may be viewed there too.
-
-If you have any queries regarding this, it can be discussed in <#1092894736857174026>. We have <#1382117279399153715> for activity on the platform too!
+You can definitely help out! Please see the Helping category below to see just how you can do this. 🩵
 ## Links
 
 Here are some useful links:
