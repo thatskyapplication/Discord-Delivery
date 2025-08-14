@@ -10,7 +10,7 @@ Welcome to the <@982740693070012506> support server! This is the place for anyth
 - Need some help with <@982740693070012506>? Did something go wrong? Head on over to <#1113528928427049050>!
 - Share any feedback you have in <#1080528991028523059>! We'd love to hear!
 - Daily guides are sent in <#1071076627037044766>!
-- Updates from Sky-related subreddits are sent in X!
+- Updates from Sky-related subreddits are sent in <#1390438169735987230>!
 
 On top of all of that, check out <id:customize> to customise your experience!
 ## Helping out
