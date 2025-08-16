@@ -1,12 +1,12 @@
 a:dailies-guide:
-  - changed-files:
-      - any-glob-to-any-file: source/channels/dailies-guide.ts
+ - changed-files:
+   - any-glob-to-any-file: source/channels/dailies-guide.ts
 a:how-to-translate:
-  - changed-files:
-      - any-glob-to-any-file: source/channels/how-to-translate.ts
+ - changed-files:
+   - any-glob-to-any-file: source/channels/how-to-translate.ts
 a:rules:
-  - changed-files:
-      - any-glob-to-any-file: source/channels/rules.ts
+ - changed-files:
+   - any-glob-to-any-file: source/channels/rules.ts
 a:welcome:
-  - changed-files:
-      - any-glob-to-any-file: source/channels/welcome.ts
+ - changed-files:
+   - any-glob-to-any-file: source/channels/welcome.ts
