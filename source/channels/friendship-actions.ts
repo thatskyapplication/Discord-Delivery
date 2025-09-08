@@ -9,7 +9,7 @@ import { FRIENDSHIP_ACTIONS_CHANNEL_ID } from "../utility/configuration.js";
 
 const COMPONENTS_1_TEXT_DISPLAY_1 = `# Friendship actions
 
-You can express yourself to others through GIFs through commands such as \`/hug\`, \`/high-five\`, \`/hair-tousle\`, etc.!
+You can express yourself to others through GIFs through commands such as \`/hug\`, \`/high-five\`, \`/hair-tousle\`, and others!
 ## Examples` as const;
 
 const COMPONENTS_1_TEXT_DISPLAY_2 = `## Contributing
