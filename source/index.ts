@@ -1,6 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { DiscordDelivery } from "discord-delivery";
 import dailiesGuide from "./channels/dailies-guide.js";
+import friendshipActions from "./channels/friendship-actions.js";
 import howToTranslate from "./channels/how-to-translate.js";
 import rules from "./channels/rules.js";
 import welcome from "./channels/welcome.js";
@@ -9,7 +10,7 @@ import { DISCORD_TOKEN, FORCE } from "./utility/configuration.js";
 
 const discordDelivery = new DiscordDelivery({
 	data: messageIds,
-	informationChannels: [welcome, rules, dailiesGuide, howToTranslate],
+	informationChannels: [welcome, rules, friendshipActions, dailiesGuide, howToTranslate],
 	token: DISCORD_TOKEN,
 	force: FORCE,
 });

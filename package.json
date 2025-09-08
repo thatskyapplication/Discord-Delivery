@@ -13,6 +13,7 @@
 		"knip": "knip"
 	},
 	"dependencies": {
+		"discord-api-types": "^0.38.23",
 		"discord-delivery": "^1.0.2"
 	},
 	"devDependencies": {
