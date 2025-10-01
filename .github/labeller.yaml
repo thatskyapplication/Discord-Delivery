@@ -1,6 +1,3 @@
-a:dailies-guide:
- - changed-files:
-   - any-glob-to-any-file: source/channels/dailies-guide.ts
 a:friendship-actions:
  - changed-files:
    - any-glob-to-any-file: source/channels/friendship-actions.ts
@@ -10,6 +7,9 @@ a:how-to-translate:
 a:rules:
  - changed-files:
    - any-glob-to-any-file: source/channels/rules.ts
+a:updating-daily-guides:
+ - changed-files:
+   - any-glob-to-any-file: source/channels/updating-daily-guides.ts
 a:welcome:
  - changed-files:
    - any-glob-to-any-file: source/channels/welcome.ts

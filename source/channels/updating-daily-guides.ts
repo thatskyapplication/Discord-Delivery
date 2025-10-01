@@ -1,7 +1,7 @@
 import { InformationChannel } from "discord-delivery";
-import { DAILIES_GUIDE_CHANNEL_ID } from "../utility/configuration.js";
+import { UPDATING_DAILY_GUIDES_CHANNEL_ID } from "../utility/configuration.js";
 
-const CONTENT_1 = `# Dailies guide
+const CONTENT_1 = `# Updating daily guides
 
 Thank you for expressing interest for updating the daily guides! This will tell you how to do just that.
 ## Process
@@ -27,6 +27,6 @@ Let a <@&1261199790759481438> know if something needs updating as it requires a 
 - Ensure an audit trail is left for a possible unforeseeable scenario` as const;
 
 export default new InformationChannel({
-	id: DAILIES_GUIDE_CHANNEL_ID,
+	id: UPDATING_DAILY_GUIDES_CHANNEL_ID,
 	messages: [{ content: CONTENT_1 }],
 });

@@ -8,7 +8,7 @@ if (
 		process.env.WELCOME_CHANNEL_ID &&
 		process.env.RULES_CHANNEL_ID &&
 		process.env.FRIENDSHIP_ACTIONS_CHANNEL_ID &&
-		process.env.DAILIES_GUIDE_CHANNEL_ID &&
+		process.env.UPDATING_DAILY_GUIDES_CHANNEL_ID &&
 		process.env.HOW_TO_TRANSLATE_CHANNEL_ID
 	)
 ) {
@@ -20,5 +20,5 @@ export const FORCE = process.env.FORCE === "true";
 export const WELCOME_CHANNEL_ID = process.env.WELCOME_CHANNEL_ID;
 export const RULES_CHANNEL_ID = process.env.RULES_CHANNEL_ID;
 export const FRIENDSHIP_ACTIONS_CHANNEL_ID = process.env.FRIENDSHIP_ACTIONS_CHANNEL_ID;
-export const DAILIES_GUIDE_CHANNEL_ID = process.env.DAILIES_GUIDE_CHANNEL_ID;
+export const UPDATING_DAILY_GUIDES_CHANNEL_ID = process.env.UPDATING_DAILY_GUIDES_CHANNEL_ID;
 export const HOW_TO_TRANSLATE_CHANNEL_ID = process.env.HOW_TO_TRANSLATE_CHANNEL_ID;
