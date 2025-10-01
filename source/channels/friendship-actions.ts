@@ -54,7 +54,7 @@ const COMPONENTS_1: APIMessageTopLevelComponent[] = [
 			{
 				type: ComponentType.Button,
 				style: ButtonStyle.Primary,
-				custom_id: "FRIENDSHIP_ACTIONS_CONTRIBUTE_BUTTON_CUSTOM_ID",
+				custom_id: "47",
 				label: "Contribute",
 				emoji: { name: "🩵" },
 			},
