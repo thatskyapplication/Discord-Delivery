@@ -5,7 +5,7 @@ const CONTENT_1 = `# Updating daily guides
 
 Thank you for expressing interest for updating the daily guides! This will tell you how to do just that.
 ## Process
-Simply log into Sky to check the quests and then update them with <@982740693070012506> via \`/daily-guides set\`.
+Simply log in to Sky to check the quests and then update them with <@982740693070012506> via \`/daily-guides set\`.
 
 There is also the travelling rock that appears around Aviary Village! This isn't as important as the daily quests, so feel free to upload an image of its location if you want!
 
