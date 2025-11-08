@@ -7,7 +7,7 @@ Thank you for expressing interest for updating the daily guides! This will tell 
 ## Process
 Simply log in to Sky to check the quests and then update them with <@982740693070012506> via \`/daily-guides set\`.
 
-There is also the travelling rock that appears around Aviary Village! This isn't as important as the daily quests, so feel free to upload an image of its location if you want!
+There is also the travelling rock that appears around Aviary Village! Feel free to upload an image of its location!
 
 Once you use the command, <https://thatskyapplication.com/daily-guides> will _immediately_ update, so be sure you're doing it correctly! However, daily guides on Discord will _not_ immediately update. Use the "Distribute" button if everything seems good. You'll know if it'll work because you'll see it updated in <#1071076627037044766>.
 
