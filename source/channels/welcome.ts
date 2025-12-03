@@ -1,9 +1,9 @@
 import { InformationChannel } from "discord-delivery";
 import { WELCOME_CHANNEL_ID } from "../utility/configuration.js";
 
-const CONTENT_1 = `# Caelus
+const CONTENT_1 = `# thatskyapplication
 
-Welcome to the <@982740693070012506> support server! This is the place for anything Caelus.
+This is the place for anything we build, including <@982740693070012506>, our Discord application!
 ## General
 
 - Keep updated by reading <#1092932721812193330>!
@@ -13,9 +13,9 @@ Welcome to the <@982740693070012506> support server! This is the place for anyth
 - Updates from Sky-related subreddits are sent in <#1390438169735987230>!
 
 On top of all of that, check out <id:customize> to customise your experience!
-## Helping out
+## Contributing
 
-You can definitely help out! Please see the Helping category below to see just how you can do this. 🩵
+You can definitely help out! Please see the Contributing category below to see just how you can do this. 🩵
 ## Links
 
 Here are some useful links:
