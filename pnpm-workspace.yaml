@@ -1,3 +1,5 @@
 allowBuilds:
   esbuild: true
   oxc-resolver: true
+minimumReleaseAgeExclude:
+  - '@types/node@26.1.1'

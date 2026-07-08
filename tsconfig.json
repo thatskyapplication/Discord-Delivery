@@ -9,17 +9,15 @@
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"strict": true,
-		"resolveJsonModule": true,
 		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
+		"resolveJsonModule": true,
 		"verbatimModuleSyntax": true,
 		"newLine": "lf",
+		"rootDir": "source",
 		"outDir": "distribution",
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
 		"lib": ["ESNext"],
 		"target": "ESNext",
-		"skipLibCheck": false
+		"skipLibCheck": true,
+		"types": ["node"]
 	}
 }
